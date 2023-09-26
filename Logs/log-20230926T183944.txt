@@ -1,0 +1,1 @@
+2023-09-26 18:40:16,693 INFO  m.ApplicationManager [AddNewCarTests.java:35] addNewCarPositive starts with:Tel AvivKIASportagePetrol5B100-200-2409100-200-2409100-200-2409150New car

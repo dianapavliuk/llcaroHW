@@ -12,10 +12,13 @@ public class LoginTests extends TestBase {
     }
 @Test
     public void loginPositiveTest(){
+        String email = "love@gmail.com";
+        String password = "abC121314#";
     User user = new User ().withEmail("love@gmail.com").withPassword("abC121314#");
 
     openLoginForm();
     fillLoginForm(user);
+    logger.info("registrationPositiveTest starts with:"+ email+ " and "+ password );
     submitLogin();
     Assert.assertTrue(isLoggedSuccess());
 

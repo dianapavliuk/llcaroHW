@@ -1,0 +1,1 @@
+2023-09-26 18:58:55,573 INFO  m.ApplicationManager [LoginTests.java:21] registrationPositiveTest starts with:love@gmail.com and abC121314#

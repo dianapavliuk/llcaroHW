@@ -1,0 +1,1 @@
+2023-09-26 19:08:07,578 INFO  m.ApplicationManager [RegistrationTest.java:56] registrationNegativeWrongPassword starts with:JessyBakerjessy@gmail.comabC121212
