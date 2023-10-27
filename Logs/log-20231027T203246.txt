@@ -1,0 +1,14 @@
+2023-10-27 20:33:00,304 INFO  m.ApplicationManager [ApplicationManager.java:44] Navigated to the link ---https://ilcarro.web.app/search
+2023-10-27 20:33:00,339 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.=' Sign up ']
+2023-10-27 20:33:00,447 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.=' Sign up ']is found
+2023-10-27 20:33:02,585 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: name
+2023-10-27 20:33:03,427 INFO  m.WDListener [WDListener.java:28] element with locator --->By.id: nameis found
+2023-10-27 20:33:04,850 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: lastName
+2023-10-27 20:33:04,863 INFO  m.WDListener [WDListener.java:28] element with locator --->By.id: lastNameis found
+2023-10-27 20:33:05,429 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: email
+2023-10-27 20:33:05,447 INFO  m.WDListener [WDListener.java:28] element with locator --->By.id: emailis found
+2023-10-27 20:33:05,986 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: password
+2023-10-27 20:33:05,996 INFO  m.WDListener [WDListener.java:28] element with locator --->By.id: passwordis found
+2023-10-27 20:33:06,933 INFO  m.ApplicationManager [RegistrationTest.java:23] registrationPositiveTest starts with:JessyBakerjessy1980@gmail.comabC121212#
+2023-10-27 20:33:06,934 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type='submit']
+2023-10-27 20:33:07,014 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //button[@type='submit']is found

@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddNewCarTests extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(isLogged()==false){
             login(new User()
@@ -15,7 +15,7 @@ public class AddNewCarTests extends TestBase{
 
         }
     }
-    @Test
+    @Test(groups = {"positive"})
     public void addNewCarPositive(){
         int i =(int)(System.currentTimeMillis()/1000)%3600;
 

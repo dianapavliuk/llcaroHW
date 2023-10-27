@@ -1,0 +1,41 @@
+2023-10-13 13:36:47,363 INFO  m.ApplicationManager [ApplicationManager.java:31] Navigated to the link ---https://ilcarro.web.app/search
+2023-10-13 13:36:47,392 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Logout'] 
+2023-10-13 13:36:50,474 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Logout'] is found
+2023-10-13 13:36:50,474 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.=' Log in ']
+2023-10-13 13:36:50,505 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.=' Log in ']is found
+2023-10-13 13:36:51,991 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: email
+2023-10-13 13:36:52,665 INFO  m.WDListener [WDListener.java:28] element with locator --->By.id: emailis found
+2023-10-13 13:36:54,096 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: password
+2023-10-13 13:36:54,108 INFO  m.WDListener [WDListener.java:28] element with locator --->By.id: passwordis found
+2023-10-13 13:36:54,585 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type='submit']
+2023-10-13 13:36:54,623 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //button[@type='submit']is found
+2023-10-13 13:36:55,255 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type = 'button']
+2023-10-13 13:36:56,839 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //button[@type = 'button']is found
+2023-10-13 13:37:03,104 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //a[.=' Let the car work ']
+2023-10-13 13:37:03,125 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //a[.=' Let the car work ']is found
+2023-10-13 13:37:04,590 INFO  m.ApplicationManager [AddNewCarTests.java:35] addNewCarPositive starts with:Tel AvivKIASportagePetrol5B100-200-2218100-200-2218100-200-2218150New car
+2023-10-13 13:37:04,611 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.cssSelector: h2
+2023-10-13 13:37:04,703 INFO  m.WDListener [WDListener.java:28] element with locator --->By.cssSelector: h2is found
+2023-10-13 13:37:04,764 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.cssSelector: h2
+2023-10-13 13:37:04,808 INFO  m.WDListener [WDListener.java:28] element with locator --->By.cssSelector: h2is found
+2023-10-13 13:37:04,893 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: pickUpPlac
+2023-10-13 13:37:07,989 INFO  m.WDListener [WDListener.java:34] something went wrong!!!
+2023-10-13 13:37:07,990 INFO  m.WDListener [WDListener.java:35] no such element: Unable to locate element: {"method":"css selector","selector":"#pickUpPlac"}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:7100:9423:65fb:7a5:f2e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/gq/rwgcn5sx47j...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f5ddcbc2b5773074ecf4585213742d
+*** Element info: {Using=id, value=pickUpPlac}
+2023-10-13 13:37:07,990 INFO  m.WDListener [WDListener.java:36] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pickUpPlac"}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:7100:9423:65fb:7a5:f2e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.1', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/gq/rwgcn5sx47j...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f5ddcbc2b5773074ecf4585213742d
+*** Element info: {Using=id, value=pickUpPlac}
+2023-10-13 13:37:08,200 INFO  m.WDListener [WDListener.java:41] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-2227.png

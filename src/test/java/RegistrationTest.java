@@ -2,7 +2,7 @@ import models.User;
 import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase{
-@Test
+@Test(groups = {"positive"})
 
     public void registrationPositive(){
     int i = (int)(System.currentTimeMillis()/1000)%3600;
@@ -25,7 +25,7 @@ public class RegistrationTest extends TestBase{
 
 
 }
-@Test
+@Test(groups = {"negative","smoke"})
 public void registrationNegativeWrongEmail(){
     String email = "jessygmail.com";
     String password = "abC121212#";
@@ -40,7 +40,7 @@ public void registrationNegativeWrongEmail(){
     logger.info("registrationNegativeWrongEmail starts with:" + name+ lastName + email+ password );
     submitRegistration();
 }
-    @Test
+    @Test(groups = {"negative","smoke"})
     public void registrationNegativeWrongPassword(){
         String email = "jessy@gmail.com";
         String password = "abC121212";

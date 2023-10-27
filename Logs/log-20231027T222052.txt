@@ -1,0 +1,98 @@
+2023-10-27 22:20:56,184 INFO  m.ApplicationManager [ApplicationManager.java:44] Navigated to the link ---https://ilcarro.web.app/search
+2023-10-27 22:20:56,204 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Logout'] 
+2023-10-27 22:20:59,229 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Logout'] is found
+2023-10-27 22:20:59,232 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Log in']
+2023-10-27 22:20:59,246 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Log in']is found
+2023-10-27 22:20:59,612 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: email
+2023-10-27 22:20:59,616 INFO  m.WDListener [WDListener.java:28] element with locator --->By.id: emailis found
+2023-10-27 22:20:59,872 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: password
+2023-10-27 22:20:59,877 INFO  m.WDListener [WDListener.java:28] element with locator --->By.id: passwordis found
+2023-10-27 22:21:00,132 INFO  m.ApplicationManager [LoginTests.java:21] registrationPositiveTest starts with:love@gmail.com and abC121314#
+2023-10-27 22:21:00,132 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type='submit']
+2023-10-27 22:21:00,137 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //button[@type='submit']is found
+2023-10-27 22:21:00,365 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //h2[contains(text(),'success')]
+2023-10-27 22:21:01,714 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //h2[contains(text(),'success')]is found
+2023-10-27 22:21:01,719 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type = 'button']
+2023-10-27 22:21:01,724 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //button[@type = 'button']is found
+2023-10-27 22:21:02,115 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Logout'] 
+2023-10-27 22:21:05,149 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Logout'] is found
+2023-10-27 22:21:05,150 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Log in']
+2023-10-27 22:21:08,195 INFO  m.WDListener [WDListener.java:34] something went wrong!!!
+2023-10-27 22:21:08,196 INFO  m.WDListener [WDListener.java:35] Unable to locate element: //*[.='Log in']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4815, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fb237ff-5b33-40c3-b3b7-5a65ae48abe7
+*** Element info: {Using=xpath, value=//*[.='Log in']}
+2023-10-27 22:21:08,196 INFO  m.WDListener [WDListener.java:36] org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[.='Log in']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4815, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fb237ff-5b33-40c3-b3b7-5a65ae48abe7
+*** Element info: {Using=xpath, value=//*[.='Log in']}
+2023-10-27 22:21:08,461 INFO  m.WDListener [WDListener.java:41] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-1268.png
+2023-10-27 22:21:08,462 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type = 'button']
+2023-10-27 22:21:11,480 INFO  m.WDListener [WDListener.java:34] something went wrong!!!
+2023-10-27 22:21:11,480 INFO  m.WDListener [WDListener.java:35] Unable to locate element: //button[@type = 'button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4815, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fb237ff-5b33-40c3-b3b7-5a65ae48abe7
+*** Element info: {Using=xpath, value=//button[@type = 'button']}
+2023-10-27 22:21:11,480 INFO  m.WDListener [WDListener.java:36] org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type = 'button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4815, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fb237ff-5b33-40c3-b3b7-5a65ae48abe7
+*** Element info: {Using=xpath, value=//button[@type = 'button']}
+2023-10-27 22:21:11,729 INFO  m.WDListener [WDListener.java:41] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-1271.png
+2023-10-27 22:21:11,730 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Logout'] 
+2023-10-27 22:21:14,741 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Logout'] is found
+2023-10-27 22:21:14,746 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type = 'button']
+2023-10-27 22:21:17,762 INFO  m.WDListener [WDListener.java:34] something went wrong!!!
+2023-10-27 22:21:17,763 INFO  m.WDListener [WDListener.java:35] Unable to locate element: //button[@type = 'button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4815, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fb237ff-5b33-40c3-b3b7-5a65ae48abe7
+*** Element info: {Using=xpath, value=//button[@type = 'button']}
+2023-10-27 22:21:17,764 INFO  m.WDListener [WDListener.java:36] org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type = 'button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4815, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fb237ff-5b33-40c3-b3b7-5a65ae48abe7
+*** Element info: {Using=xpath, value=//button[@type = 'button']}
+2023-10-27 22:21:18,001 INFO  m.WDListener [WDListener.java:41] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-1277.png
+2023-10-27 22:21:18,004 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Logout'] 
+2023-10-27 22:21:21,022 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Logout'] is found
+2023-10-27 22:21:21,023 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Log in']
+2023-10-27 22:21:24,032 INFO  m.WDListener [WDListener.java:34] something went wrong!!!
+2023-10-27 22:21:24,032 INFO  m.WDListener [WDListener.java:35] Unable to locate element: //*[.='Log in']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4815, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fb237ff-5b33-40c3-b3b7-5a65ae48abe7
+*** Element info: {Using=xpath, value=//*[.='Log in']}
+2023-10-27 22:21:24,032 INFO  m.WDListener [WDListener.java:36] org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[.='Log in']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4815, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fb237ff-5b33-40c3-b3b7-5a65ae48abe7
+*** Element info: {Using=xpath, value=//*[.='Log in']}
+2023-10-27 22:21:24,230 INFO  m.WDListener [WDListener.java:41] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-1284.png

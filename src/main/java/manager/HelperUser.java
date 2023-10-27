@@ -9,23 +9,31 @@ import org.openqa.selenium.interactions.Actions;
 public interface HelperUser extends HelperBase {
 
     default void openLoginForm(){
-
-        click(By.xpath("//*[.=' Log in ']"));
+        click(By.xpath("//*[.='Log in']"));
+      // click(By.xpath("/html/body/app-root/app-navigator/div[1]/a[6]"));
 
      }
     default void openRegistrationForm(){
 
-        click(By.xpath("//*[.=' Sign up ']"));
+       click(By.xpath("//*[.='Sign up']"));
+
 
     }
 
     default void fillLoginForm(User user){
-      type(By.id("email"), user.getEmail());
+     type(By.id("email"), user.getEmail());
+        //type(By.xpath("/html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input"), user.getEmail());
       type(By.id("password"), user.getPassword());
 
 
      }
+    default void fillLoginForm(String email, String password){
+        type(By.id("email"),email);
+      //  type(By.xpath("/html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input"), email);
+        type(By.id("password"),password);
 
+
+    }
 
 
 

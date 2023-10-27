@@ -1,0 +1,89 @@
+2023-10-27 21:44:34,626 INFO  m.ApplicationManager [ApplicationManager.java:44] Navigated to the link ---https://ilcarro.web.app/search
+2023-10-27 21:44:34,648 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Logout'] 
+2023-10-27 21:44:37,681 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Logout'] is found
+2023-10-27 21:44:37,683 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: /html/body/app-root/app-navigator/div[1]/a[6]
+2023-10-27 21:44:37,692 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: /html/body/app-root/app-navigator/div[1]/a[6]is found
+2023-10-27 21:44:37,943 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+2023-10-27 21:44:37,949 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/inputis found
+2023-10-27 21:44:38,203 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.id: password
+2023-10-27 21:44:38,208 INFO  m.WDListener [WDListener.java:28] element with locator --->By.id: passwordis found
+2023-10-27 21:44:38,447 INFO  m.ApplicationManager [LoginTests.java:21] registrationPositiveTest starts with:love@gmail.com and abC121314#
+2023-10-27 21:44:38,448 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type='submit']
+2023-10-27 21:44:38,453 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //button[@type='submit']is found
+2023-10-27 21:44:38,680 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //h2[contains(text(),'success')]
+2023-10-27 21:44:39,604 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //h2[contains(text(),'success')]is found
+2023-10-27 21:44:39,608 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type = 'button']
+2023-10-27 21:44:39,612 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //button[@type = 'button']is found
+2023-10-27 21:44:39,830 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Logout'] 
+2023-10-27 21:44:42,837 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Logout'] is found
+2023-10-27 21:44:42,838 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: /html/body/app-root/app-navigator/div[1]/a[6]
+2023-10-27 21:44:42,844 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: /html/body/app-root/app-navigator/div[1]/a[6]is found
+2023-10-27 21:44:43,067 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+2023-10-27 21:44:46,113 INFO  m.WDListener [WDListener.java:34] something went wrong!!!
+2023-10-27 21:44:46,113 INFO  m.WDListener [WDListener.java:35] Unable to locate element: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4298, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b57312a4-d51b-480b-9297-79f522026f7a
+*** Element info: {Using=xpath, value=/html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input}
+2023-10-27 21:44:46,113 INFO  m.WDListener [WDListener.java:36] org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4298, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b57312a4-d51b-480b-9297-79f522026f7a
+*** Element info: {Using=xpath, value=/html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input}
+2023-10-27 21:44:46,325 INFO  m.WDListener [WDListener.java:41] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-2686.png
+2023-10-27 21:44:46,326 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type = 'button']
+2023-10-27 21:44:46,330 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //button[@type = 'button']is found
+2023-10-27 21:44:46,545 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Logout'] 
+2023-10-27 21:44:49,564 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Logout'] is found
+2023-10-27 21:44:49,566 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: /html/body/app-root/app-navigator/div[1]/a[6]
+2023-10-27 21:44:49,573 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: /html/body/app-root/app-navigator/div[1]/a[6]is found
+2023-10-27 21:44:49,800 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+2023-10-27 21:44:52,819 INFO  m.WDListener [WDListener.java:34] something went wrong!!!
+2023-10-27 21:44:52,820 INFO  m.WDListener [WDListener.java:35] Unable to locate element: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4298, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b57312a4-d51b-480b-9297-79f522026f7a
+*** Element info: {Using=xpath, value=/html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input}
+2023-10-27 21:44:52,821 INFO  m.WDListener [WDListener.java:36] org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4298, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b57312a4-d51b-480b-9297-79f522026f7a
+*** Element info: {Using=xpath, value=/html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input}
+2023-10-27 21:44:53,027 INFO  m.WDListener [WDListener.java:41] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-2692.png
+2023-10-27 21:44:53,028 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //button[@type = 'button']
+2023-10-27 21:44:53,032 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //button[@type = 'button']is found
+2023-10-27 21:44:53,247 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: //*[.='Logout'] 
+2023-10-27 21:44:56,266 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: //*[.='Logout'] is found
+2023-10-27 21:44:56,266 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: /html/body/app-root/app-navigator/div[1]/a[6]
+2023-10-27 21:44:56,270 INFO  m.WDListener [WDListener.java:28] element with locator --->By.xpath: /html/body/app-root/app-navigator/div[1]/a[6]is found
+2023-10-27 21:44:56,487 INFO  m.WDListener [WDListener.java:22] start searching element by locator --->By.xpath: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+2023-10-27 21:44:59,500 INFO  m.WDListener [WDListener.java:34] something went wrong!!!
+2023-10-27 21:44:59,501 INFO  m.WDListener [WDListener.java:35] Unable to locate element: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4298, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b57312a4-d51b-480b-9297-79f522026f7a
+*** Element info: {Using=xpath, value=/html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input}
+2023-10-27 21:44:59,501 INFO  m.WDListener [WDListener.java:36] org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Diana.local', ip: '2a06:c701:4697:9100:51c0:2e86:e806:441e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 4298, moz:profile: /var/folders/gq/rwgcn5sx47j..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b57312a4-d51b-480b-9297-79f522026f7a
+*** Element info: {Using=xpath, value=/html/body/app-root/app-navigator/app-login-registration/div/div/div/app-login/form/div[1]/input}
+2023-10-27 21:44:59,703 INFO  m.WDListener [WDListener.java:41] Here is the path to screenshot with error ---> src/main/resources/screenshots/screenshot-2699.png

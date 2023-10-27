@@ -6,18 +6,21 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase implements  HelperUser, HelperCar {
     WebDriver wd;
 
-    @BeforeSuite
-public void setup(){
+
+    @BeforeSuite(alwaysRun = true)
+public void setup() throws IOException {
       init();
     }
 
@@ -28,7 +31,7 @@ public void setup(){
       //  wd.navigate().to("https://ilcarro.web.app/search");
       //  wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
    // }
-@AfterSuite
+@AfterSuite(alwaysRun = true)
     public void stop(){
         pause(5000);
 tearDown();
